@@ -1,5 +1,4 @@
 body {
-  font-family: "Montserrat", sans-serif;
   background-color: $default-bg-color;
   color: $default-color;
 }
@@ -83,4 +82,8 @@ strong {
       padding-top: 0;
     }
   }
+}
+
+.task-board-icons-row-wrapper {
+  flex-grow: 1;
 }

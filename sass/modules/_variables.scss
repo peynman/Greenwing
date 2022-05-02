@@ -59,11 +59,11 @@ $task-colors: (
     }
   }
   .table-list .table-list-row.color-#{$name} {
-    border-left: 5px solid $hex;
+    border-right: 5px solid $hex;
 
     &:hover,
     &:focus {
-      border-left-color: darken($hex, 10);
+      border-right-color: darken($hex, 10);
     }
   }
 
